@@ -1,0 +1,36 @@
+{
+  "name": "wedriver.io",
+  "version": "1.0.0",
+  "description": "AT Framework Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dishantrathi/AT-framework-boilerplate.git"
+  },
+  "keywords": [
+    "ATFramework"
+  ],
+  "author": "dishantrathi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dishantrathi/AT-framework-boilerplate/issues"
+  },
+  "homepage": "https://github.com/dishantrathi/AT-framework-boilerplate#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "@wdio/cli": "^6.7.0",
+    "@wdio/local-runner": "^6.7.0",
+    "@wdio/mocha-framework": "^6.7.0",
+    "@wdio/spec-reporter": "^6.7.0",
+    "@wdio/sync": "^6.7.0",
+    "chromedriver": "^86.0.0",
+    "prettier": "^2.1.2",
+    "wdio-chromedriver-service": "^6.0.4"
+  }
+}
