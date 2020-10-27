@@ -1,4 +1,5 @@
 //import {TRwebdriver} from '../../common/TRwebdriver';
+import {executeStatement} from '../../common/sql';
 
 describe('Init', () => {
     //Test Steps/Cases
@@ -13,5 +14,10 @@ describe('Init', () => {
     it('Load WebdriverIO website',() => {
         browser.url('https://webdriver.io')
         browser.pause(3000)  
+        
+        console.log(executeStatement)
+        browser.pause(300000)
+        //executeStatement();
+
     })
 });

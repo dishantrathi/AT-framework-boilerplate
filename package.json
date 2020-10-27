@@ -32,5 +32,8 @@
     "chromedriver": "^86.0.0",
     "prettier": "^2.1.2",
     "wdio-chromedriver-service": "^6.0.4"
+  },
+  "dependencies": {
+    "tedious": "^9.2.1"
   }
 }
