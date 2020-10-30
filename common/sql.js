@@ -56,10 +56,11 @@ function executeStatement () {
         //console.log(dtcolumns);
         dtrows.push(dtcolumns) 
         dtcolumns = [];
-        //console.log(dtrows);
+        console.log(dtrows);
     }); 
-    console.log(dtrows);
     connection.execSql(request);
+    console.log(dtrows);
+
 }
 
     /*
